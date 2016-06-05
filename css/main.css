@@ -1,0 +1,101 @@
+/*---------- TYPO ----------*/
+
+@font-face {
+    font-family: PhilosopherRegular; /* Имя шрифта */
+    src: url(/fonts/PhilosopherRegular/PhilosopherRegular.ttf); /* Путь к файлу со шрифтом */
+    src: url(/fonts/PhilosopherRegular/PhilosopherRegular.eot); /* Путь к файлу со шрифтом */
+    src: url(/fonts/PhilosopherRegular/PhilosopherRegular.woff); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: DesignosaurRegular; /* Имя шрифта */
+    src: url(/fonts/DesignosaurRegular/DesignosaurRegular.ttf); /* Путь к файлу со шрифтом */
+    src: url(/fonts/DesignosaurRegular/DesignosaurRegular.eot); /* Путь к файлу со шрифтом */
+    src: url(/fonts/DesignosaurRegular/DesignosaurRegular.woff); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: DejaVuSerifCondensedBook; /* Имя шрифта */
+    src: url(/fonts/DejaVuSerifCondensedBook/DejaVuSerifCondensedBook.ttf); /* Путь к файлу со шрифтом */
+    src: url(/fonts/DejaVuSerifCondensedBook/DejaVuSerifCondensedBook.eot); /* Путь к файлу со шрифтом */
+    src: url(/fonts/DejaVuSerifCondensedBook/DejaVuSerifCondensedBook.woff); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: DejaVuSerifCondensedBold; /* Имя шрифта */
+    src: url(/fonts/DejaVuSerifCondensedBold/DejaVuSerifCondensedBold.ttf); /* Путь к файлу со шрифтом */
+    src: url(/fonts/DejaVuSerifCondensedBold/DejaVuSerifCondensedBold.eot); /* Путь к файлу со шрифтом */
+    src: url(/fonts/DejaVuSerifCondensedBold/DejaVuSerifCondensedBold.woff); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: ArvoRegular; /* Имя шрифта */
+    src: url(/fonts/ArvoRegular/ArvoRegular.ttf); /* Путь к файлу со шрифтом */
+    src: url(/fonts/ArvoRegular/ArvoRegular.eot); /* Путь к файлу со шрифтом */
+    src: url(/fonts/ArvoRegular/ArvoRegular.woff); /* Путь к файлу со шрифтом */
+}
+
+body{
+    font-size: 16px;
+}
+
+.heder {
+    font-family: PhilosopherRegular;
+    font-size: 0.8em;
+}
+
+.phone_number {
+    font-size: 1.2em;
+    color: #01465A;
+}
+
+.top_menu {
+    font: 1.2em PhilosopherRegular, sans-serif;
+    text-shadow: maroon 0 0 2px;
+}
+
+.description {
+    font-family: DesignosaurRegular;
+    font-size: 0.8em;
+}
+.zaglav {
+    font-family: DesignosaurRegular ;
+    font-size: 1.2em;
+    color: #FF9B08;
+}
+
+.about {
+    font-family: DejaVuSerifCondensedBook;
+    color: #062053;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.footer_a {
+    font-family: ArvoRegular;
+}
+.footer_a h2 {
+    font-size: 1.2em;
+}
+
+.copy {
+    font-family: ArvoRegular;
+    color: #009FE2;
+}
+
+
+
+/*---------- END TYPO ----------*/
+/*---------- HEADER BLOCK ----------*/
+.menu-items > .row > ul > li > a { display: block }
+.menu-items > .row > ul > li { display: inline-block; }
+/*---------- END HEADER BLOCK ----------*/
+
+/*---------- CONTENT BLOCK ----------*/
+/*---------- END CONTENT BLOCK ----------*/
+
+/*---------- FOOTER BLOCK ----------*/
+.copy{
+    text-align: center;
+}
+/*---------- END FOOTER BLOCK ----------*/
